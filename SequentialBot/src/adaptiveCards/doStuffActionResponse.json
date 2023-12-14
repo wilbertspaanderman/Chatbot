@@ -1,0 +1,32 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.3",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Can you please provide me the following information"
+    },
+    {
+      "type": "Input.Text",
+      "id": "resourceGroup",
+      "placeholder": "What is your resource group?",
+      "label": "What is your resource group?"
+    },
+    {
+      "type": "Input.Text",
+      "id": "url",
+      "placeholder": "What is your url?",
+      "label": "What is your url?"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Action.Submit",
+      "data": {
+        "x": 13
+      }
+    }
+  ]
+}
